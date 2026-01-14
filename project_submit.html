@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request a Project | IoTRIX Labs</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .form-control, .form-select {
+            background-color: #1a1a1a;
+            color: #f8f9fa;
+            border-color: #6c757d;
+        }
+        .form-control:focus, .form-select:focus {
+            box-shadow: none;
+            border-color: #0d6efd;
+        }
+        .btn-primary {
+            background-color: #0d6efd;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #0b5ed7;
+        }
+        .bg-black {
+            background-color: #121212 !important;
+        }
+        h2 {
+            letter-spacing: 0.5px;
+        }
+        .opacity-75 {
+            opacity: 0.75;
+        }
+    </style>
+</head>
+<body>
+
+<!-- ==================== REQUEST A PROJECT ==================== -->
+<section id="request-project" class="py-5">
+    <div class="container">
+
+        <!-- Header -->
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Request a Project</h2>
+            <p class="opacity-75">
+                Have an idea or problem? Tell us what you need and we’ll design a smart solution for you.
+            </p>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+
+                <form action="project_request.php" method="POST" class="p-4 rounded bg-black border">
+
+                    <!-- Name -->
+                    <div class="mb-3">
+                        <label class="form-label">Full Name</label>
+                        <input type="text" name="name" class="form-control" required>
+                    </div>
+
+                    <!-- Email & Phone -->
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Email Address</label>
+                            <input type="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Phone Number</label>
+                            <input type="tel" name="phone" class="form-control">
+                        </div>
+                    </div>
+
+                    <!-- Project Category -->
+                    <div class="mb-3">
+                        <label class="form-label">Project Category</label>
+                        <select name="category" class="form-select" required>
+                            <option value="">Select category</option>
+                            <option>IoT Development</option>
+                            <option>Robotics</option>
+                            <option>Automation</option>
+                            <option>Final Year Project</option>
+                        </select>
+                    </div>
+
+                    <!-- Application Area -->
+                    <div class="mb-3">
+                        <label class="form-label">Application Area</label>
+                        <select name="application" class="form-select">
+                            <option>Agriculture</option>
+                            <option>Healthcare</option>
+                            <option>Education</option>
+                            <option>Environment</option>
+                            <option>Industrial</option>
+                        </select>
+                    </div>
+
+                    <!-- Project Description -->
+                    <div class="mb-3">
+                        <label class="form-label">Project Description</label>
+                        <textarea name="description" class="form-control" rows="5"
+                                  placeholder="Briefly describe the problem you want to solve..." required></textarea>
+                    </div>
+
+                    <!-- Timeline -->
+                    <div class="mb-3">
+                        <label class="form-label">Expected Timeline</label>
+                        <select name="timeline" class="form-select">
+                            <option>Less than 1 month</option>
+                            <option>1–3 months</option>
+                            <option>3–6 months</option>
+                        </select>
+                    </div>
+
+                    <!-- Budget -->
+                    <div class="mb-3">
+                        <label class="form-label">Budget Range (Optional)</label>
+                        <input type="text" name="budget" class="form-control" placeholder="E.g., KES 50,000 – 100,000">
+                    </div>
+
+                    <!-- Submit -->
+                    <div class="text-center mt-4">
+                        <button type="submit" class="btn btn-primary px-5">
+                            Submit Request
+                        </button>
+                    </div>
+
+                </form>
+
+                <p class="text-center small opacity-75 mt-3">
+                    We review every request and respond within 24–48 hours.
+                </p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

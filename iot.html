@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Project Development | IoTRIX Labs</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<!-- ==================== NAVBAR ==================== -->
+<nav class="navbar navbar-expand-lg fixed-top"
+     style="background:rgba(0,0,0,0.95); border-bottom:1px solid rgba(255,255,255,0.08);">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-white" href="index.html">IoTRIX Labs</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
+                aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="nav">
+            <ul class="navbar-nav gap-lg-4">
+                <li class="nav-item"><a class="nav-link text-white opacity-75" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white opacity-75" href="index.html#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link text-white opacity-75" href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ==================== HERO ==================== -->
+<section class="d-flex align-items-center"
+         style="
+            min-height:70vh; 
+            padding-top:90px; 
+            color:#fff;
+            background: 
+                linear-gradient(rgba(15,32,39,0.7), rgba(44,83,100,0.7)), 
+                url('images/28.jpg') no-repeat center center;
+            background-size: cover;
+         ">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1 class="display-4 fw-bold mb-3">IoT Project Development</h1>
+                <p class="lead opacity-75">
+                    We design and build smart, connected systems that automate processes,
+                    collect real-time data, and deliver actionable insights.
+                </p>
+                <div class="mt-4">
+                    <a href="#contact" class="btn btn-primary btn-lg me-2">Request a Project</a>
+                    <a href="talk_engineer.html" class="btn btn-outline-light btn-lg">Talk to an Engineer</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ==================== WHAT WE BUILD ==================== -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="fw-bold mb-4">What We Build</h2>
+
+        <div class="row g-4">
+
+            <!-- Card 1 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="border rounded h-100 overflow-hidden shadow-sm">
+                    <img src="images/6.png"
+                         class="img-fluid"
+                         alt="Smart Monitoring Systems">
+
+                    <div class="p-4">
+                        <i class="fas fa-network-wired fa-2x text-primary mb-3"></i>
+                        <h6 class="fw-bold">Smart Monitoring Systems</h6>
+                        <p class="small opacity-75">
+                            Temperature, humidity, gas, water level, and energy monitoring systems.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="border rounded h-100 overflow-hidden shadow-sm">
+                    <img src="images/7.jpg"
+                         class="img-fluid"
+                         alt="Automation and Control">
+
+                    <div class="p-4">
+                        <i class="fas fa-sliders-h fa-2x text-primary mb-3"></i>
+                        <h6 class="fw-bold">Automation & Control</h6>
+                        <p class="small opacity-75">
+                            Automated control of motors, relays, valves, and actuators.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="border rounded h-100 overflow-hidden shadow-sm">
+                    <img src="images/8.jpg"
+                         class="img-fluid"
+                         alt="Cloud Dashboards">
+
+                    <div class="p-4">
+                        <i class="fas fa-cloud fa-2x text-primary mb-3"></i>
+                        <h6 class="fw-bold">Cloud & Dashboards</h6>
+                        <p class="small opacity-75">
+                            Web dashboards, analytics, alerts, and remote access systems.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ==================== TECHNOLOGIES ==================== -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="fw-bold mb-4">Technologies We Use</h2>
+
+        <div class="row g-4">
+
+            <!-- Hardware -->
+            <div class="col-md-6">
+                <h6 class="fw-bold mb-3">Hardware</h6>
+
+                <div class="d-flex flex-wrap gap-2">
+                    <a href="https://docs.espressif.com/projects/arduino-esp32/en/latest/" 
+                       target="_blank" class="tech-chip">ESP32</a>
+
+                    <a href="https://docs.arduino.cc/" 
+                       target="_blank" class="tech-chip">Arduino</a>
+
+                    <a href="https://www.raspberrypi.com/documentation/" 
+                       target="_blank" class="tech-chip">Raspberry Pi</a>
+
+                    <a href="https://www.winsen-sensor.com/sensors/gas-sensor/" 
+                       target="_blank" class="tech-chip">MQ Gas Sensors</a>
+
+                    <a href="https://learn.adafruit.com/dht" 
+                       target="_blank" class="tech-chip">DHT Sensors</a>
+
+                    <a href="https://www.analog.com/media/en/technical-documentation/data-sheets/ds18b20.pdf" 
+                       target="_blank" class="tech-chip">DS18B20</a>
+
+                    <a href="https://simcom.ee/documents/SIM800C/SIM800C_Hardware_Design_V1.05.pdf" 
+                       target="_blank" class="tech-chip">SIM800 / SIM900</a>
+
+                    <a href="https://www.u-blox.com/en/product-documents" 
+                       target="_blank" class="tech-chip">GPS Modules</a>
+
+                    <a href="https://www.omron.com/global/en/products/relays/" 
+                       target="_blank" class="tech-chip">Relays</a>
+
+                    <a href="https://www.maxongroup.com/maxon/view/content/motor-documentation" 
+                       target="_blank" class="tech-chip">Motors</a>
+
+                    <a href="https://www.firgelliauto.com/pages/linear-actuators" 
+                       target="_blank" class="tech-chip">Actuators</a>
+                </div>
+            </div>
+
+            <!-- Software -->
+            <div class="col-md-6">
+                <h6 class="fw-bold mb-3">Software & Platforms</h6>
+
+                <div class="d-flex flex-wrap gap-2">
+                    <a href="https://www.microchip.com/en-us/tools-resources/develop/microchip-studio" 
+                       target="_blank" class="tech-chip">Embedded C</a>
+
+                    <a href="https://docs.arduino.cc/software/ide-v2" 
+                       target="_blank" class="tech-chip">Arduino IDE</a>
+
+                    <a href="https://docs.python.org/3/" 
+                       target="_blank" class="tech-chip">Python</a>
+
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" 
+                       target="_blank" class="tech-chip">HTML</a>
+
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" 
+                       target="_blank" class="tech-chip">CSS</a>
+
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" 
+                       target="_blank" class="tech-chip">JavaScript</a>
+
+                    <a href="https://firebase.google.com/docs" 
+                       target="_blank" class="tech-chip">Firebase</a>
+
+                    <a href="https://mqtt.org/documentation/" 
+                       target="_blank" class="tech-chip">MQTT</a>
+
+                    <a href="https://restfulapi.net/" 
+                       target="_blank" class="tech-chip">REST APIs</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ==================== IOT SOLUTIONS ==================== -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="fw-bold mb-3">IoT Solutions We Deliver</h2>
+        <p class="opacity-75 mb-4">
+            Real-world smart systems designed for agriculture, healthcare, education, and environmental monitoring.
+        </p>
+
+        <div class="row g-4">
+
+            <div class="col-md-6 col-lg-4">
+                <div class="p-4 border rounded h-100">
+                    <i class="fas fa-drumstick-bite fa-2x text-primary mb-3"></i>
+                    <h6 class="fw-bold">Smart Poultry Management</h6>
+                    <p class="small opacity-75">
+                        Automated feeding, vaccination alerts, and real-time farm monitoring.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="p-4 border rounded h-100">
+                    <i class="fas fa-tint fa-2x text-primary mb-3"></i>
+                    <h6 class="fw-bold">Water Usage Monitoring & Billing</h6>
+                    <p class="small opacity-75">
+                        Smart metering, usage analytics, and automated billing control.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="p-4 border rounded h-100">
+                    <i class="fas fa-skull-crossbones fa-2x text-primary mb-3"></i>
+                    <h6 class="fw-bold">Hazardous Gas Detection</h6>
+                    <p class="small opacity-75">
+                        Early detection of harmful gases with alerts and live dashboards.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="p-4 border rounded h-100">
+                    <i class="fas fa-recycle fa-2x text-primary mb-3"></i>
+                    <h6 class="fw-bold">Smart Composting Systems</h6>
+                    <p class="small opacity-75">
+                        IoT-based organic waste monitoring for sustainable compost production.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="p-4 border rounded h-100">
+                    <i class="fas fa-paw fa-2x text-primary mb-3"></i>
+                    <h6 class="fw-bold">Wildlife Tracking & Monitoring</h6>
+                    <p class="small opacity-75">
+                        GPS and sensor-based tracking for conservation and security.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="p-4 border rounded h-100">
+                    <i class="fas fa-pills fa-2x text-primary mb-3"></i>
+                    <h6 class="fw-bold">Automated Medical Dispensers</h6>
+                    <p class="small opacity-75">
+                        Timed medication dispensing with alerts for patient safety.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- CTA -->
+        <div class="text-center mt-5">
+            <a href="#contact" class="btn btn-outline-primary px-4">
+                Request a Custom IoT Solution
+            </a>
+        </div>
+
+    </div>
+</section>
+<!-- ==================== DEVELOPMENT PROCESS ==================== -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="fw-bold mb-3">Our Development Process</h2>
+        <p class="opacity-75 mb-4">
+            We follow a structured engineering workflow to deliver reliable, scalable, and efficient IoT solutions.
+        </p>
+
+        <div class="row g-4">
+
+            <div class="col-md-6 col-lg-4">
+                <div class="p-4 border rounded h-100">
+                    <span class="badge bg-primary mb-2">Step 01</span>
+                    <i class="fas fa-search fa-2x text-primary d-block mb-3"></i>
+                    <h6 class="fw-bold">Requirements Analysis</h6>
+                    <p class="small opacity-75">
+                        Understanding client needs, constraints, and real-world challenges.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="p-4 border rounded h-100">
+                    <span class="badge bg-primary mb-2">Step 02</span>
+                    <i class="fas fa-drafting-compass fa-2x text-primary d-block mb-3"></i>
+                    <h6 class="fw-bold">System Design</h6>
+                    <p class="small opacity-75">
+                        Architecture planning, component selection, and communication design.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="p-4 border rounded h-100">
+                    <span class="badge bg-primary mb-2">Step 03</span>
+                    <i class="fas fa-vials fa-2x text-primary d-block mb-3"></i>
+                    <h6 class="fw-bold">Prototyping & Testing</h6>
+                    <p class="small opacity-75">
+                        Hardware assembly, firmware testing, and system validation.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="p-4 border rounded h-100">
+                    <span class="badge bg-primary mb-2">Step 04</span>
+                    <i class="fas fa-code fa-2x text-primary d-block mb-3"></i>
+                    <h6 class="fw-bold">Software & Dashboard Development</h6>
+                    <p class="small opacity-75">
+                        Embedded software, cloud integration, and user dashboards.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="p-4 border rounded h-100">
+                    <span class="badge bg-primary mb-2">Step 05</span>
+                    <i class="fas fa-rocket fa-2x text-primary d-block mb-3"></i>
+                    <h6 class="fw-bold">Deployment & Training</h6>
+                    <p class="small opacity-75">
+                        System deployment, documentation, and user training.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ==================== CTA ==================== -->
+<section id="contact" class="py-5 text-center"
+         style="background:#0d1b2a; color:#fff;">
+    <div class="container">
+        <h2 class="fw-bold mb-3">Have an IoT Project in Mind?</h2>
+        <p class="opacity-75 mb-4">
+            Whether academic, research, or commercial — we can help you build it.
+        </p>
+       <div class="text-center mt-4">
+    <a href="project_submit.html" class="btn btn-primary btn-lg">
+        Submit Request
+    </a>
+</div>
+        </a>
+    </div>
+</section>
+
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="py-4 bg-dark text-white text-center">
+    <div class="container">
+        <p class="small opacity-75 mb-0">
+            © 2026 IoTRIX Labs. All rights reserved.
+        </p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

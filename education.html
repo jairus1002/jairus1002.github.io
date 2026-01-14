@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Training & Mentorship | IoTRIX Labs</title>
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+    body { font-family: "Segoe UI", sans-serif; color: #333; background: #fdfdfd; }
+    h2, h3 { color: #111; }
+    .card { background: #fff; border: 1px solid #ddd; transition: .3s; cursor: pointer; }
+    .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+    .form-label { font-weight: 500; }
+    .form-control, .form-select { background: #fff; color: #111; border: 1px solid #ccc; }
+    .btn-primary { background: #0b5ed7; border: none; }
+    .btn-primary:hover { background: #0645ad; }
+    .hero-section { 
+        background: linear-gradient(rgba(50,50,50,0.3), rgba(0,0,0,0.3)),
+                    url('../images/training-hero.jpg') center/cover no-repeat; 
+        color: #fff; 
+        padding: 100px 0;
+        text-align: center;
+    }
+    .hover-shadow:hover { box-shadow: 0 10px 25px rgba(0,0,0,0.15); }
+</style>
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg fixed-top"
+     style="background: rgba(0,0,0,0.95); border-bottom:1px solid rgba(255,255,255,0.08);">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-white" href="index.html">IoTRIX Labs</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="nav">
+            <ul class="navbar-nav gap-lg-4">
+                <li class="nav-item"><a class="nav-link text-white opacity-75" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white opacity-75" href="index.html#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link text-white opacity-75" href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section class="hero-section" 
+         style="
+            background: 
+                linear-gradient(rgba(50,50,50,0.3), rgba(0,0,0,0.3)),
+                url('../images/20.jpg') no-repeat center center;
+            background-size: cover;
+            color: #fff; 
+            min-height: 80vh; 
+            display: flex;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+         ">
+    <div class="container">
+        <h1 class="display-4 fw-bold mb-3">Training & Mentorship</h1>
+        <p class="lead opacity-75">
+            Learn from experts, develop hands-on skills, and accelerate your IoT and robotics projects.
+        </p>
+        <a href="education_request.html" class="btn btn-primary btn-lg mt-3">Request Training</a>
+    </div>
+</section>
+
+
+
+<!-- ================= PROGRAMS ================= -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="fw-bold mb-4 text-center">Our Training Programs</h2>
+        <div class="row g-4">
+
+            <!-- Hands-on Workshops -->
+            <div class="col-md-4">
+                <a href="https://www.edx.org/course/robotics" target="_blank" class="text-decoration-none">
+                    <div class="card p-4 text-center h-100 hover-shadow">
+                        <img src="images/17.jpg" 
+                             alt="Hands-on Workshops" 
+                             class="img-fluid mb-3" 
+                             style="width:100%; height:200px; object-fit:cover; border-radius:8px;">
+                        <h5 class="fw-bold mb-2 text-dark">Hands-on Workshops</h5>
+                        <p class="text-dark">Small group sessions focused on practical IoT and robotics projects.</p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Online Mentorship -->
+            <div class="col-md-4">
+                <a href="https://www.coursera.org/learn/robotics" target="_blank" class="text-decoration-none">
+                    <div class="card p-4 text-center h-100 hover-shadow">
+                        <img src="images/18.jpg" 
+                             alt="Online Mentorship" 
+                             class="img-fluid mb-3" 
+                             style="width:100%; height:200px; object-fit:cover; border-radius:8px;">
+                        <h5 class="fw-bold mb-2 text-dark">Online Mentorship</h5>
+                        <p class="text-dark">One-on-one guidance from experienced engineers and mentors.</p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Certification Programs -->
+            <div class="col-md-4">
+                <a href="https://www.udemy.com/topic/robotics/" target="_blank" class="text-decoration-none">
+                    <div class="card p-4 text-center h-100 hover-shadow">
+                        <img src="images/19.jpg" 
+                             alt="Certification Programs" 
+                             class="img-fluid mb-3" 
+                             style="width:100%; height:200px; object-fit:cover; border-radius:8px;">
+                        <h5 class="fw-bold mb-2 text-dark">Certification Programs</h5>
+                        <p class="text-dark">Structured courses with certificates to showcase your skills.</p>
+                    </div>
+                </a>.
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ================= DEVELOPMENT PROCESS ================= -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="fw-bold mb-4 text-center">How Our Training Works</h2>
+        <div class="row g-4 text-center">
+            <div class="col-md-4">
+                <div class="card p-4 h-100">
+                    <span class="badge bg-primary mb-2">Step 01</span>
+                    <i class="fas fa-user-plus fa-2x text-primary mb-3"></i>
+                    <h6 class="fw-bold">Sign Up / Apply</h6>
+                    <p class="small opacity-75">Submit your request and enroll in a program.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-4 h-100">
+                    <span class="badge bg-primary mb-2">Step 02</span>
+                    <i class="fas fa-chalkboard-teacher fa-2x text-primary mb-3"></i>
+                    <h6 class="fw-bold">Mentorship Assignment</h6>
+                    <p class="small opacity-75">Get assigned to an expert mentor based on your goals.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-4 h-100">
+                    <span class="badge bg-primary mb-2">Step 03</span>
+                    <i class="fas fa-robot fa-2x text-primary mb-3"></i>
+                    <h6 class="fw-bold">Hands-on Learning</h6>
+                    <p class="small opacity-75">Work on practical projects under guidance.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section id="request-form" class="py-5 text-center" style="background:#0d1b2a; color:#fff;">
+    <div class="container">
+        <h2 class="fw-bold mb-3">Ready to Learn & Build?</h2>
+        <p class="opacity-75 mb-4">Submit your ideas and let our mentors guide you to success.</p>
+        <a href="education_request.html" class="btn btn-primary btn-lg">Request Training</a>
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="py-4 bg-dark text-white text-center">
+    <div class="container">
+        <p class="small opacity-75 mb-0">© 2026 IoTRIX Labs. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

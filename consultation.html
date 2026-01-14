@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Consultation | IoTRIX Labs</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <style>
+        .step-badge {
+            font-size: 1.3rem;
+            background-color: #0d6efd;
+            color: #fff;
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+            display: inline-block;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            transition: transform 0.3s;
+        }
+    </style>
+</head>
+<body>
+
+<!-- ==================== NAVBAR ==================== -->
+<nav class="navbar navbar-expand-lg fixed-top"
+     style="background:rgba(0,0,0,0.95); border-bottom:1px solid rgba(255,255,255,0.08);">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-white" href="index.html">IoTRIX Labs</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="nav">
+            <ul class="navbar-nav gap-lg-4">
+                <li class="nav-item"><a class="nav-link text-white opacity-75" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white opacity-75" href="index.html#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link text-white opacity-75 active" href="#">Consultation</a></li>
+                <li class="nav-item"><a class="nav-link text-white opacity-75" href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ==================== HERO ==================== -->
+<section class="d-flex align-items-center justify-content-center text-center"
+         style="min-height:70vh; padding:0 20px; 
+                background: linear-gradient(rgba(15,32,39,0.7), rgba(44,83,100,0.7)), 
+                            url('../images/22.jpg') no-repeat center center; 
+                background-size: cover; 
+                color:#fff;">
+    <div class="container">
+        <h1 class="display-4 fw-bold mb-3">Project Consultation</h1>
+        <p class="lead opacity-75">
+            Get expert guidance for your IoT, robotics, or final-year project. 
+            We help you plan, design, and execute your project successfully.
+        </p>
+        <div class="mt-4">
+            <a href="#contact" class="btn btn-primary btn-lg me-2">Request Consultation</a>
+            
+        </div>
+    </div>
+</section>
+
+
+<!-- ==================== WHAT WE OFFER ==================== -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="fw-bold mb-4">What We Offer</h2>
+        <div class="row g-4">
+
+            <!-- Card 1: Project Planning -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card service-card shadow-sm h-100">
+                    <img src="images/23.jpg" 
+                         alt="Project Planning" 
+                         class="card-img-top" 
+                         style="height:180px; object-fit:cover;">
+                    <div class="card-body text-center p-4">
+                        <i class="fas fa-lightbulb fa-3x text-primary mb-3"></i>
+                        <h6 class="fw-bold">Project Planning</h6>
+                        <p class="small opacity-75">Define clear objectives, requirements, and timelines for your project.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Hardware & Software Design -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card service-card shadow-sm h-100">
+                    <img src="images/24.jpg" 
+                         alt="Hardware & Software Design" 
+                         class="card-img-top" 
+                         style="height:180px; object-fit:cover;">
+                    <div class="card-body text-center p-4">
+                        <i class="fas fa-microchip fa-3x text-primary mb-3"></i>
+                        <h6 class="fw-bold">Hardware & Software Design</h6>
+                        <p class="small opacity-75">Guidance on circuits, microcontrollers, and coding best practices.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Code Review & Debugging -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card service-card shadow-sm h-100">
+                    <img src="images/25.jpg" 
+                         alt="Code Review & Debugging" 
+                         class="card-img-top" 
+                         style="height:180px; object-fit:cover;">
+                    <div class="card-body text-center p-4">
+                        <i class="fas fa-code fa-3x text-primary mb-3"></i>
+                        <h6 class="fw-bold">Code Review & Debugging</h6>
+                        <p class="small opacity-75">Experts review your code, fix bugs, and optimize performance.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4: Prototype Testing -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card service-card shadow-sm h-100">
+                    <img src="images/26.webp" 
+                         alt="Prototype Testing" 
+                         class="card-img-top" 
+                         style="height:180px; object-fit:cover;">
+                    <div class="card-body text-center p-4">
+                        <i class="fas fa-vial fa-3x text-primary mb-3"></i>
+                        <h6 class="fw-bold">Prototype Testing</h6>
+                        <p class="small opacity-75">Test your hardware/software and receive actionable feedback.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5: Final-Year Mentorship -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card service-card shadow-sm h-100">
+                    <img src="images/27.jpg" 
+                         alt="Final-Year Mentorship" 
+                         class="card-img-top" 
+                         style="height:180px; object-fit:cover;">
+                    <div class="card-body text-center p-4">
+                        <i class="fas fa-graduation-cap fa-3x text-primary mb-3"></i>
+                        <h6 class="fw-bold">Final-Year Mentorship</h6>
+                        <p class="small opacity-75">Step-by-step guidance from concept to submission of your final project.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ==================== CONSULTATION PROCESS ==================== -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="fw-bold mb-4">How Our Consultation Works</h2>
+        <div class="row text-center g-4">
+            <div class="col-md-4">
+                <div class="step-badge mx-auto">1</div>
+                <h6 class="fw-bold mt-2">Discuss Your Project</h6>
+                <p class="small opacity-75">Share your project idea, goals, and challenges with our experts.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="step-badge mx-auto">2</div>
+                <h6 class="fw-bold mt-2">Schedule a Session</h6>
+                <p class="small opacity-75">Pick a convenient time for a one-on-one consultation.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="step-badge mx-auto">3</div>
+                <h6 class="fw-bold mt-2">Receive Expert Guidance</h6>
+                <p class="small opacity-75">Get actionable steps and mentorship to complete your project successfully.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== CALL TO ACTION ==================== -->
+<section id="contact" class="py-5 text-center"
+         style="background:#0d1b2a; color:#fff;">
+    <div class="container">
+        <h2 class="fw-bold mb-3">Ready to Start Your Project?</h2>
+        <p class="opacity-75 mb-4">
+            Submit your project details and let our IoT experts guide you every step of the way.
+        </p>
+        <a href="project_submit.html" class="btn btn-primary btn-lg">Request Consultation</a>
+    </div>
+</section>
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="py-4 bg-dark text-white text-center">
+    <div class="container">
+        <p class="small opacity-75 mb-0">© 2026 IoTRIX Labs. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
