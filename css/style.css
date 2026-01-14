@@ -1,5 +1,6 @@
 /* ================= HERO SECTION ================= */
 #hero {
+
     min-height: 100vh;
     position: relative;
     background: url('/images/3.jpg') center center / cover no-repeat;
