@@ -98,3 +98,44 @@
         transform: scale(1);
     }
 }
+/* ==================== SERVICE / FEATURE CARDS ==================== */
+.border.rounded img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.border.rounded {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.border.rounded:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* ==================== TECHNOLOGY CHIPS ==================== */
+.tech-chip {
+    display: inline-block;
+    padding: 6px 14px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #0d6efd;
+    background-color: rgba(13, 110, 253, 0.08);
+    border: 1px solid rgba(13, 110, 253, 0.25);
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+
+.tech-chip:hover {
+    background-color: #0d6efd;
+    color: #ffffff;
+    border-color: #0d6efd;
+    transform: translateY(-2px);
+}
+
+/* ==================== ICON SPACING CONSISTENCY ==================== */
+.card-body i {
+    display: block;
+}
